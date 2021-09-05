@@ -159,3 +159,33 @@
 // }
 
 // productExceptSelf([1,2,3,4])
+
+
+
+//--------------------- maximum subarray
+
+//kadanes algorithm solution o(n)
+
+// function maxSub(arr){
+
+//   let solution = arr[0]
+
+//   for(let i=1;i<arr.length;i++){
+//     arr[i] = Math.max(arr[i], arr[i] + arr[i-1])
+//     if(arr[i]>solution){
+//       solution = Math.max(solution, arr[i])
+//     }
+//   }
+//   return solution;
+// }
+
+// maxSub([-2,1,-3,4,-1,2,1,-5,4]) //output - 6
+
+
+//--------------------- maximum product subarray
+
+function maxProdSub(arr){
+  
+}
+
+ maxProdSub([-2,1,-3,4]) 
